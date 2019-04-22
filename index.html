@@ -43,6 +43,64 @@
       </div>
   </nav>
 
+  <!-- Bootstrap Carousel -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+       
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-dash-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-dash-to="1"></li>
+          <li data-target="#myCarousel" data-slide-dash-to="2"></li>
+        </ol>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block mb-5 dark-overlay">
+                  <h1 class="display-3">Pet Safe Treatment</h1>
+                  <p class="lead">We use All-Natural Ingredients to keep your loved ones safe.</p>
+                <a href="" class="btn btn-danger btn-lg">Sign Up Now</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2 ">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5 dark-overlay">
+              
+              <h1 class="display-3">Tree Removal</h1>
+              <p class="lead">Trees too close to the Home...We take care of that too!</p>
+              <a href="" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5 dark-overlay">
+                <h1 class="display-3">"Best Yard in Neighborhood"</h1>
+                <p class="lead">We Promise you will have the best yard in the neighborhood, or your money back.</p>
+                <a href="" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+        
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+      
+    </div>
+   </section>
+
+
+
+
+
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
@@ -50,5 +108,12 @@
   crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
   crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script> 
+  <script>
+    $('.carousel').carousel({
+      interval:6000,
+      pause:'hover'
+    }); 
+  </script>
 </body>
+</html>
