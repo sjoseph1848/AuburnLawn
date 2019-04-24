@@ -30,6 +30,11 @@
 #home-heading {
   position:relative;
   min-height: 200px;
+  background: url('../img/home-heading.jpg');
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  text-align:center;
+  color:white;
 }
 
 .dark-overlay {
