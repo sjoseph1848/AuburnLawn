@@ -1,6 +1,6 @@
   class Weather{
     constructor(zip) {
-      this.apiKey = config.apiKey;
+      this.apiKey = apiKey;
       this.zip = zip;
     }
     
